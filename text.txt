@@ -1,0 +1,29 @@
+git commands for personal use
+
+ohmyzsh
+
+git init -> start git in folder
+git status -> show your git status
+git add -> add file to git track
+git add "*.html" -> add any html file
+git add "page*" -> add any file friest word is page
+git add -A -> add any file in directory
+git commit -m -> enter commit to your change -> git commit -m 'any_text'
+git commit -> enter your commit in your editor
+git log -> show your log or the same your git history
+git diff HEAD -> tell you changes
+git diff --staged ->stage file changes
+git reset -> take out file from stage -> git reset file_name
+git checkout -- -> back file to latest commit -> git checkout -- file_name 
+git branch -> show you your branch
+git branch your_branch_name -> create branch
+git checkout -> move between branch -> git checkout branch_name
+git merge -> merge branch -> git merge branch_name
+! if you to branch example master and fix you must merge on master example git merge fix
+git rm -> delete file in git and your system -> git rm file_name
+git branch -d -> delete branch -> git branch -d branch_name
+git clone -> clone repository in github or gitlab -> git clone repository_name
+git push -> push your change to repository -> git push origin master
+! origin or master just name
+! git push origin main
+
