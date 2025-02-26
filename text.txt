@@ -34,5 +34,20 @@ git remote set-url origin https://<yourToken>@github.com/mrafk-manam/git-recover
 git pull -> get update github changes -> git pull origin master
 ! origin or master just name
 ! git push origin main
+git pull -> i don't know wich is correct
+
+note -> why use remote?! we use remote because
+1 -> work with multi platform example git hub and gitlab in this case we use new remote for example gitlab for enable changes for two services
+2 -> remote is very usefull but i don't know other uses 
+git remote -> show remotes
+git remote -v -> show remotes with many detaile
+git remote add -> remote to server -> git add remote_name server_name
+!git remote add origin  https://github.com
+!git remote can composition with add or remove or rename
+git push -u origin master -> your branch connect to remote branch
+git push -u origin master -> if you use for one time you dont need type every carachter you can type -> git push
+
+so far you know basic in git this file is very summery and the future i promise adding explation to this file and make professional part thanks for reading 
+
 
 
