@@ -27,3 +27,12 @@ git push -> push your change to repository -> git push origin master
 ! origin or master just name
 ! git push origin main
 
+git remote set-url origin https://github.com/mrafk-manam/git-recovery
+
+git remote set-url origin https://<yourToken>@github.com/mrafk-manam/git-recovery
+
+git pull -> get update github changes -> git pull origin master
+! origin or master just name
+! git push origin main
+
+
