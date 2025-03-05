@@ -1,57 +1,99 @@
 git commands for personal use
+
 please install git on your linux -> in debian base linux type 'sudo apt install linux'
 
 and please install ohmyzsh extension
 
 if you don't have idea for ohmyzsh follow this step ->
+
 1 -> sudo apt install zsh -> install ohmyzsh
+
 2 -> sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -> this script for Configuration your ohmyzsh from original source
+
 3 -> chsh -s $(which zsh) -> for change your default shell to ohmyzsh 
+
 4 -> rebot your system and enjoy
 
+
 git init -> start git in folder
+
 git status -> show your git status
+
 git add -> add file to git track
+
 git add "*.html" -> add any html file
+
 git add "page*" -> add any file friest word is page
+
 git add -A -> add any file in directory
+
 git commit -m -> enter commit to your change -> git commit -m 'any_text'
+
 git commit -> enter your commit in your editor
+
 git log -> show your log or the same your git history
+
 git diff HEAD -> tell you changes
+
 git diff --staged ->stage file changes
+
 git reset -> take out file from stage -> git reset file_name
+
 git checkout -- -> back file to latest commit -> git checkout -- file_name 
+
 git branch -> show you your branch
+
 git branch your_branch_name -> create branch
+
 git checkout -> move between branch -> git checkout branch_name
+
 git merge -> merge branch -> git merge branch_name
+
 ! if you to branch example master and fix you must merge on master example git merge fix
+
 git rm -> delete file in git and your system -> git rm file_name
+
 git branch -d -> delete branch -> git branch -d branch_name
+
 git clone -> clone repository in github or gitlab -> git clone repository_name
+
 git push -> push your change to repository -> git push origin master
+
 ! origin or master just name
+
 ! git push origin main
+
 
 git remote set-url origin https://github.com/mrafk-manam/git-recovery
 
 git remote set-url origin https://<yourToken>@github.com/mrafk-manam/git-recovery
 
 git pull -> get update github changes -> git pull origin master
+
 ! origin or master just name
+
 ! git push origin main
+
 git pull -> i don't know wich is correct
 
 note -> why use remote?! we use remote because
+
 1 -> work with multi platform example git hub and gitlab in this case we use new remote for example gitlab for enable changes for two services
+
 2 -> remote is very usefull but i don't know other uses 
+
 git remote -> show remotes
+
 git remote -v -> show remotes with many detaile
+
 git remote add -> remote to server -> git add remote_name server_name
+
 !git remote add origin  https://github.com
+
 !git remote can composition with add or remove or rename
+
 git push -u origin master -> your branch connect to remote branch
+
 git push -u origin master -> if you use for one time you dont need type every carachter you can type -> git push
 
 so far you know basic in git this file is very summery and the future i promise adding explation to this file and make professional part thanks for reading 
