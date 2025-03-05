@@ -3,6 +3,12 @@ please install git on your linux -> in debian base linux type 'sudo apt install 
 
 and please install ohmyzsh extension
 
+if you don't have idea for ohmyzsh follow this step ->
+1 -> sudo apt install zsh -> install ohmyzsh
+2 -> sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -> this script for Configuration your ohmyzsh from original source
+3 -> chsh -s $(which zsh) -> for change your default shell to ohmyzsh 
+4 -> rebot your system and enjoy
+
 git init -> start git in folder
 git status -> show your git status
 git add -> add file to git track
