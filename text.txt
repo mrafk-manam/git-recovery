@@ -1,6 +1,7 @@
 git commands for personal use
+please install git on your linux -> in debian base linux type 'sudo apt install linux'
 
-ohmyzsh
+and please install ohmyzsh extension
 
 git init -> start git in folder
 git status -> show your git status
