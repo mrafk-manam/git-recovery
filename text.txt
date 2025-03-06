@@ -98,5 +98,30 @@ git push -u origin master -> if you use for one time you dont need type every ca
 
 so far you know basic in git this file is very summery and the future i promise adding explation to this file and make professional part thanks for reading 
 
+ok for back to before commit we need to commit_hash and we have 3 method to back before commit -> 
+
+1 -> we can use git checkout commit_hash but this method create new branch and this is not really helpfull but can use for watch changes before commit for example -> git checkout commit_hash 
+
+2 -> we can use reset with 3 switch i tell you switch -> 
+
+ond -> git reset --soft -> just switch pointer and hold changes to staging level
+
+two -> git reset --mixed -> mixed is defualt mixed mixed switch pointer and exit changes form staging -> example -> git reset == git reset --mixed 
+
+three -> git reset -- hard -> this is what we want this command helps to back before commit but its back commit and be cureful its back time to calling commit its ok for personal project but if you work with other people maybe get into problem -> git reset --hard commit_hash
+
+3 -> git revert -> revert can calling before commit and make new commit -> git revert commit_hash
+
+ok maybe you want back one file changes you can use two method ->
+
+1-> i tell you higher you can use git checkout but checkout can back you to 1 before commit but if you want to back file to any commit you should use secondery method
+
+2 -> this method some hard but its working -> git restore --soure=[commit_hash] [file_location] -> git restore --source=[commit_hash] [index.html] 
+
+!!!maybe you can't find commit hash in this position you should type command and instead of commit_hash press enter
+
+
+
+
 
 
