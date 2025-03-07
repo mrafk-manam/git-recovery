@@ -15,6 +15,13 @@ if you don't have idea for ohmyzsh follow this step ->
 4 -> rebot your system and enjoy
 
 
+you must be config your user name and email when you first time use git 
+
+git config --global user.name
+git config --global user.email
+
+
+
 git init -> start git in folder
 
 git status -> show your git status
@@ -156,9 +163,56 @@ git push origin --tags
 
 git checkout tag_name -> in this command you back in tag but its not branch its just Birch 
 
+git tag -d tag_name -> delete tag -> example -> git tag -d v2.0
+
+if you want to delete tag from github ->
+
+git push origin --delete tag_name -> example git push origin --delete v2.0 
+
+if your git older than 1.8.0 you must use -d instead of --delete
 
 
 
+
+
+ok in next lesson i want to talk about commit hash -> enter git log and view commit_hash
+commit_hash don't peremission to change commit but hash not signature and its can be faked 
+
+for this problem we can signature commit when its can be fake that author hack
+
+we can signature with encryption with gpg (if you want know about gpg search about pgp)
+
+ok for work with gpg companion with me -> 
+
+gpg --list-keys -> show your keys
+
+gpg --gen-key -> generate key -> when you create a key with this command its wants you your name (it should not be less than 5 characters) and your email and its ask you to this username and email is write ? and after this stage its want password 
+
+and doneeeeee you have your key
+
+git config --global user.signingkey -> show your signinkey (its vacant because you not config)
+
+ gpg --list-secret-keys --keyid-format LONG -> its show your secret key
+
+ok i can't show my key but its like this -> sec fjkadnfk/nvdkjabfjbakfdjad.sjf
+
+we work with after / -> nvdkjabfjbakfdjad.sjf -> in this example this is your secret key
+
+after this work we must use this with ->
+
+git config --global user.signingkey your_secret_key 
+
+for signature your tag ->
+
+git tag -s tag_name -m 'any_text' -> we substitute -a with -s
+
+when its show you that use git show tag_name
+
+git tag -v -> its verify tag -> git tag -v tag_name -> git tag -v v2.0
+
+if you want to signature your commit -> git commit -S -m 'any_text'
+
+!!!!!in tag we use little s and in commit we use big S 
 
 
 
