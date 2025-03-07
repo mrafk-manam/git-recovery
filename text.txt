@@ -214,6 +214,29 @@ if you want to signature your commit -> git commit -S -m 'any_text'
 
 !!!!!in tag we use little s and in commit we use big S 
 
+git help -> help you about command -> git help command_name
+
+git blame -> who write this line or file 
+
+git blame file_name -> example -> git blame text.txt
+
+git blame file_name -L -> help you untill check it out line -> gti blame file_name -lLine_name -> example -> git blame file_name -l2 -> this exmaple check out line 2 writer
+
+example -> git blame file_name -l8,10 -> in this example we watch changes between line 8 and 10
+
+git bisect -> binery search commit 
+
+git bisect start -> start using bisect 
+
+git bisect bad -> we in bad position 
+
+git bisect good commit_hash -> we tell bisect that problem did not exist in The commit hash we chose 
+
+when you run bisect and tell him bad posotion and good position bisect give you a hash and ask you Is there still a problem? and you answer with git bisect good or git bisect bad
+
+when you complete steps bisect give you a hash That there was no problem with it. 
+
+and doneeeeeee
 
 
 
