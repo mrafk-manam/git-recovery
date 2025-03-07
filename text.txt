@@ -240,5 +240,11 @@ and doneeeeeee
 
 
 
+we can keep our code in local -> its use when you want to keep code in your company -> if you want this search for it
 
+fork -> fork repository It means that you fork project in your github 
+
+you can merge request to every one to accept your change 
+
+its my git lessen but in the futrue i added file from jadi in this project
 
