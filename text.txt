@@ -96,7 +96,7 @@ git push -u origin master -> your branch connect to remote branch
 
 git push -u origin master -> if you use for one time you dont need type every carachter you can type -> git push
 
-so far you know basic in git this file is very summery and the future i promise adding explation to this file and make professional part thanks for reading 
+!!!!!so far you know basic in git this file is very summery and the future i promise adding explation to this file and make professional part thanks for reading 
 
 ok for back to before commit we need to commit_hash and we have 3 method to back before commit -> 
 
@@ -119,6 +119,46 @@ ok maybe you want back one file changes you can use two method ->
 2 -> this method some hard but its working -> git restore --soure=[commit_hash] [file_location] -> git restore --source=[commit_hash] [index.html] 
 
 !!!maybe you can't find commit hash in this position you should type command and instead of commit_hash press enter
+i was wrong you can find commit_hash with git log
+
+
+
+ok know we start git professional
+
+
+
+
+
+
+
+
+git show -> show commit changes -> git show commit_hash
+
+git tag -> show your project tags -> if you don't write a tag this command show nothing
+
+git tag -a -> help you to adding tag to your project -> git tag -a tag_name -> this method open your editor to adding message to your tag
+
+git tag -a tag_name -m "any_message" -> adding tag and adding message to ->git tag -a tag_name  -m 'any_text -> example -> git tag -a v2.0 -m 'create version 2 '
+
+you can create tag affter commit -> example -> git tag -a commit_hash -> git tag -a tag_name -m "any_text " commit_hash
+
+git tag -l -> you can search commit -> git tag -l "any_text" -> git tag -l "v*"
+
+git show tag_name -> its show that commit compantion your tag -> git show v2.0
+
+git in normal mode don't push your tags to github or gitlab or .... for push tags ->
+
+git push origin v2.0
+
+or 
+
+git push origin --tags
+
+git checkout tag_name -> in this command you back in tag but its not branch its just Birch 
+
+
+
+
 
 
 
