@@ -1,6 +1,6 @@
 git commands for personal use
 
-please install git on your linux -> in debian base linux type 'sudo apt install linux'
+please install git on your linux -> in debian base linux type 'sudo apt install git'
 
 and please install ohmyzsh extension
 
@@ -123,7 +123,7 @@ ok maybe you want back one file changes you can use two method ->
 
 1-> i tell you higher you can use git checkout but checkout can back you to 1 before commit but if you want to back file to any commit you should use secondery method
 
-2 -> this method some hard but its working -> git restore --soure=[commit_hash] [file_location] -> git restore --source=[commit_hash] [index.html] 
+2 -> this method some hard but its working -> git restore --soure=[commit_hash] [file_location] -> git restore --source=commit_hash index.html 
 
 !!!maybe you can't find commit hash in this position you should type command and instead of commit_hash press enter
 i was wrong you can find commit_hash with git log
